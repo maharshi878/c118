@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+  font-family:Poppins;
+  color:white;
+  background-color:black;
+}
+.btn-bg{
+  background-color:gray;
+  border-radius:50px;
+  font-size:20px;
+  margin-top:6px;
+  color:white;
+  border-color:gray;
+}
+.modal-title{
+  color:black !important;
+}
+#show_sketch{
+  float:right;
+}
+canvas{
+  border:5px solid white;
+  border-radius:20px;
+  animation-name:glow;
+  animation-duration:4s;
+  margin-top:65px;
+  animation-iteration-count:infinite;
+}
+@keyframes glow {
+  from{box-shadow: 1px 1px 20px grey;}
+  from{box-shadow: 1px 1px 20px white;}
+}
+p{
+  padding-top:10px;
+  font-size:25px;
+}
+#header{
+  background-color:white;
+  color:black;
+  text-align:center;
+}
